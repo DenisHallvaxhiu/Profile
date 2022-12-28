@@ -470,7 +470,6 @@ button:focus {
 /* about */
 .section-padding {
     padding-top: 120px;
-    padding-bottom: 90px;
 }
 
 .about-heading {
@@ -482,7 +481,7 @@ button:focus {
 .about-heading h6 {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
@@ -1581,7 +1580,9 @@ footer {
 .copyright-text p a:hover {
     color: #ff3d4f;
 }
-
+.about-text img{
+    width: 100%;
+}
 /* responsive-breakpoints */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
